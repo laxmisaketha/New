@@ -1,8 +1,8 @@
 const supertest = require("supertest");
 const host = "https://dictionary.iachieved.it//dictionary";
 const request = supertest(host);
-const TOKEN = "cWFjYW5kaWRhdGU6c29mdEtpdHR5TGl0dGxlQmFsbG9mRnVy";
-const TOKENBAD = "cWFjYW5kaWRhdGU6c29mdEtpdHR5TGl0dGxlQmFsbG";
+const TOKEN = "";
+const TOKENBAD = "";
 
 describe("Delete a Dictionary", () => {
     it("Validate Delete Dictionary", async () => {
